@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{29bdd5a0-627b-4021-8290-c3aa2cd77965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewFilter1\Shader">
+      <UniqueIdentifier>{cb0daa12-6aa5-4d40-85a7-ae31e8ba02cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{0b1ef4be-a1c7-47ba-ba7d-7cfab2254d38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI\BackEnd">
+      <UniqueIdentifier>{bca20e69-d33a-44a1-9b59-5ade3eb8c71c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI\External">
+      <UniqueIdentifier>{04894bbd-833a-424d-9c6f-6db232ed6451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI\Source">
+      <UniqueIdentifier>{93ca8aa9-e0ba-4b87-9d71-5277348cae51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Control">
+      <UniqueIdentifier>{512fab9d-1ba9-4771-a03a-0f514fdf1ad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewFilter1\DescriptorHeap">
+      <UniqueIdentifier>{42f3365a-59db-4e73-b5ee-c8af396b78e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewFilter1\AllocationManager">
+      <UniqueIdentifier>{2cc05e9d-3e93-44a4-948e-0953c906b7cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewFilter1\Util">
+      <UniqueIdentifier>{8e600af7-1ecc-4339-9b31-1cc8880c492a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{53d37554-22da-43ea-bb35-5ce4379f6c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewFilter1\MeshResource">
+      <UniqueIdentifier>{89231e88-8336-4341-8652-26dc94cda4dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX3DApp.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DModelViewerApp.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="UploadBuffer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameResource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryGenerator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FbxModelScene.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DResourceManager.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshResources.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="PipelineState.h">
+      <Filter>NewFilter1\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DObjects.h">
+      <Filter>NewFilter1\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_impl_dx12.h">
+      <Filter>ImGUI\BackEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_impl_win32.h">
+      <Filter>ImGUI\BackEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imconfig.h">
+      <Filter>ImGUI\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui.h">
+      <Filter>ImGUI\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_truetype.h">
+      <Filter>ImGUI\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_internal.h">
+      <Filter>ImGUI\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_rectpack.h">
+      <Filter>ImGUI\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_textedit.h">
+      <Filter>ImGUI\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUIControl.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="DescriptorHeapManager.h">
+      <Filter>NewFilter1\DescriptorHeap</Filter>
+    </ClInclude>
+    <ClInclude Include="VariableAllocationManager.h">
+      <Filter>NewFilter1\AllocationManager</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDialog.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="FbxUtil.h">
+      <Filter>NewFilter1\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtil.h">
+      <Filter>NewFilter1\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>NewFilter1\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>NewFilter1\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate.h">
+      <Filter>NewFilter1\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="JobQueue.h">
+      <Filter>NewFilter1\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportListControl.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberAllocator.h">
+      <Filter>NewFilter1\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshObjectInfoControl.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneHierachyControl.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DUtil.h">
+      <Filter>NewFilter1\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>NewFilter1\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationCalculator.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshObject.h">
+      <Filter>NewFilter1\MeshResource</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMeshObject.h">
+      <Filter>NewFilter1\MeshResource</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicMeshObject.h">
+      <Filter>NewFilter1\MeshResource</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshInstance.h">
+      <Filter>NewFilter1\MeshResource</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTypes.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="LightsInfoControl.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectX3DApp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DModelViewerApp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryGenerator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxModelScene.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DResourceManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DObjects.cpp">
+      <Filter>NewFilter1\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_win32.cpp">
+      <Filter>ImGUI\BackEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_dx12.cpp">
+      <Filter>ImGUI\BackEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui.cpp">
+      <Filter>ImGUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_demo.cpp">
+      <Filter>ImGUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_draw.cpp">
+      <Filter>ImGUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_tables.cpp">
+      <Filter>ImGUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_widgets.cpp">
+      <Filter>ImGUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DescriptorHeapManager.cpp">
+      <Filter>NewFilter1\DescriptorHeap</Filter>
+    </ClCompile>
+    <ClCompile Include="VariableAllocationManager.cpp">
+      <Filter>NewFilter1\AllocationManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxUtil.cpp">
+      <Filter>NewFilter1\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtil.cpp">
+      <Filter>NewFilter1\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>NewFilter1\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportListControl.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshObjectInfoControl.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneHierachyControl.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshResources.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
+      <Filter>NewFilter1\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DUtil.cpp">
+      <Filter>NewFilter1\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshObject.cpp">
+      <Filter>NewFilter1\MeshResource</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMeshObject.cpp">
+      <Filter>NewFilter1\MeshResource</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicMeshObject.cpp">
+      <Filter>NewFilter1\MeshResource</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshInstance.cpp">
+      <Filter>NewFilter1\MeshResource</Filter>
+    </ClCompile>
+    <ClCompile Include="LightsInfoControl.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationCalculator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D3D12ModelViewerProject.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="D3D12ModelViewerProject.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
