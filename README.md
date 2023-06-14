@@ -20,7 +20,7 @@ https://youtu.be/_eUxAKej3dw
 * 64Bit Windows 10
 * RAM 16.0GB
 * NVIDIA GeForce GTX 1060 3GB
-* 
+* C++ 20
 
 ## 구현 기능
 
